@@ -129,7 +129,7 @@ extern NSString *const MDMIndependentManagedObjectContextDidSaveNotification;
  error block.
  
  @param request An NSFetchRequest that will execute on the managedObjectContext.
- @param error A block that will be called if an error occurs during the fetch.
+ @param errorBlock A block that will be called if an error occurs during the fetch.
  
  @return An NSArray of the results, or nil if an error occured. If there were no results
  and no error, an empty array is returned.
